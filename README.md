@@ -152,10 +152,11 @@ Puedes utilizar **RJVAlert.js** mediante CDN, simplemente incluyendo los siguien
 
 ```html
 <!-- CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ramirojv/RJVAlert/dist/rjvalert.min.css">
+<link rel="stylesheet" href="https://ramirojv.com/RJVAlert/dist/rjvalert.min.css">
 
 <!-- JS -->
-<script src="https://cdn.jsdelivr.net/gh/ramirojv/RJVAlert/dist/rjvalert.min.js"></script>
+<script src="https://ramirojv.com/RJVAlert/dist/rjvalert.min.js"></script>
+
 Uso Básico
 Para mostrar una alerta de éxito:
 
@@ -172,5 +173,6 @@ rjvAlert.show({
     title: "Archivo guardado",
     text: "Tu archivo fue guardado correctamente."
 });
+
 
 
