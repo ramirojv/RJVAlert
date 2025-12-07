@@ -15,42 +15,6 @@
 
 
 ==========================================================================================================
-
-
-## Instalación
-
-Puedes utilizar **RJVAlert.js** mediante CDN, simplemente incluyendo los siguientes enlaces en tu archivo HTML.
-
-
-==========================================================================================================
-
-
-### **Instalación vía CDN**
-
-```html
-<!-- CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ramirojv/RJVAlert/dist/rjvalert.min.css">
-
-<!-- JS -->
-<script src="https://cdn.jsdelivr.net/gh/ramirojv/RJVAlert/dist/rjvalert.min.js"></script>
-Uso Básico
-Para mostrar una alerta de éxito:
-
-js
- 
-rjvAlert.success("Operación exitosa", "Los cambios fueron guardados correctamente.");
-Personalización de Iconos
-Puedes elegir cualquiera de los iconos disponibles usando su nombre:
-
-js
- 
-rjvAlert.show({
-    icon: "guardar",  // Usa el icono "guardar"
-    title: "Archivo guardado",
-    text: "Tu archivo fue guardado correctamente."
-});
-
-==========================================================================================================
 ### **Lista de iconos disponibles:**
 
 
@@ -173,3 +137,40 @@ Este proyecto está licenciado bajo la MIT License.
 RJVAlert.js fue creado y es mantenido por Ramiro Jesús Vidable - RamiroJV.com
 
 Tucumán, Argentina
+==========================================================================================================
+
+
+## Instalación
+
+Puedes utilizar **RJVAlert.js** mediante CDN, simplemente incluyendo los siguientes enlaces en tu archivo HTML.
+
+
+==========================================================================================================
+
+
+### **Instalación vía CDN**
+
+```html
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ramirojv/RJVAlert/dist/rjvalert.min.css">
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/gh/ramirojv/RJVAlert/dist/rjvalert.min.js"></script>
+Uso Básico
+Para mostrar una alerta de éxito:
+
+js
+ 
+rjvAlert.success("Operación exitosa", "Los cambios fueron guardados correctamente.");
+Personalización de Iconos
+Puedes elegir cualquiera de los iconos disponibles usando su nombre:
+
+js
+ 
+rjvAlert.show({
+    icon: "guardar",  // Usa el icono "guardar"
+    title: "Archivo guardado",
+    text: "Tu archivo fue guardado correctamente."
+});
+
+
