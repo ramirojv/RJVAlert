@@ -51,8 +51,8 @@ rjvAlert.show({
 });
 
 ==========================================================================================================
+### **Lista de iconos disponibles:**
 
-Lista de iconos disponibles:
 
 success: tilde_ok_verde
 
@@ -118,7 +118,7 @@ alerta_exito: alerta_exito
 ==========================================================================================================
 
 
-Modo Oscuro y Claro
+### **Modo Oscuro y Claro**
 RJVAlert.js es totalmente compatible con los modos claro y oscuro, con colores predefinidos que puedes cambiar según tus necesidades.
 
 js
@@ -148,27 +148,28 @@ html
 ==========================================================================================================
 
 
-Demostración en Línea
+### **Demostración en Línea**
 Puedes ver una demostración interactiva de RJVAlert en este enlace.
 
 
 ==========================================================================================================
 
 
-Contribuciones
+### **Contribuciones**
 ¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar RJVAlert, puedes realizar un pull request o abrir un issue.
 
 
 ==========================================================================================================
 
 
-Licencia
+### **Licencia**
 Este proyecto está licenciado bajo la MIT License.
 
 
 ==========================================================================================================
 
 
-Autor
+### **Autor**
 RJVAlert.js fue creado y es mantenido por Ramiro Jesús Vidable - RamiroJV.com
+
 Tucumán, Argentina
